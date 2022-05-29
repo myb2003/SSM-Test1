@@ -48,7 +48,7 @@ public class StudentController {
     public String toInsert(Student student){
         int i = service.insertService(student);
         if (i>0){
-            System.out.println("添加成功");
+            System.out.println("添加成功le");
         }
         return "forward:/getAll";
     }
