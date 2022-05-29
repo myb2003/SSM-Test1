@@ -34,7 +34,7 @@ public class StudentController {
     public String toUpdate(Student student){
         int i = service.updateService(student);
         if (i>0){
-            System.out.println("修改成功");
+            System.out.println("修改成功,哦这是真的吗，简直是太神奇了");
         }
         return "forward:/getAll";
     }
